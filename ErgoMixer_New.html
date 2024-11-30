@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ErgoMixer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 600px;
+        }
+        h1 {
+            color: #333;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to ErgoMixer!</h1>
+        <p>Convert YouTube videos to MP3/MP4 and remix in your favorite style.</p>
+        <input type="text" placeholder="Enter YouTube URL" id="youtubeUrl">
+        <select id="remixStyle">
+            <option value="dnb">DnB</option>
+            <option value="trance">Trance</option>
+            <option value="hiphop">Hip-hop</option>
+            <option value="random">Random</option>
+            <option value="ai">AI Professional Remix</option>
+        </select>
+        <button onclick="alert('Feature coming soon!')">Generate</button>
+    </div>
+</body>
+</html>
